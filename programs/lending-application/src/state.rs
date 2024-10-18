@@ -26,6 +26,7 @@ pub struct Bank {
     pub liquidation_threshold: u64,
     pub liquidation_bonus: u64,
     pub liquidation_close_factor: u64,
-    pub max_ltv: u64,
+    pub max_ltv: u64, // max percentage of assets that can be borrowed
     pub last_updated: i64,
+    pub interest_rate: u64,
 }
